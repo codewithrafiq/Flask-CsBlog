@@ -1,8 +1,8 @@
 
 from flask import  render_template, url_for, flash, redirect
-from main.froms import RegisterFrom, LoginFrom
-from main.models import User, Post
-from main import app
+from flaskblog.froms import RegisterFrom, LoginFrom
+from flaskblog.models import User, Post
+from flaskblog import app
 
 posts = [
     {

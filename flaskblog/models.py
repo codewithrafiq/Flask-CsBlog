@@ -1,4 +1,4 @@
-from main import db
+from flaskblog import db
 from datetime import datetime
 
 
